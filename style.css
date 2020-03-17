@@ -46,6 +46,10 @@ header h1 {
 	margin-bottom: 40px;
 }
 
+.project a {
+	margin: 10px;
+}
+
 footer {
 	text-align: center;
 	background-color: whitesmoke;
