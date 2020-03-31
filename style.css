@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #101d5f;
+	/* background-color: #101d5f; */
 }
 
 header {
@@ -13,12 +13,13 @@ header {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bolder;
-	color: #45c0d6;
+	/* color: #45c0d6; */
 }
 
 header img {
 	margin-bottom: 20px;
-	border: 5px solid #45c0d6;
+	/* border: 5px solid #45c0d6; */
+	border: 5px solid black;
 	border-radius: 50%;
 	height: 300px;
 	width: 300px;
@@ -30,8 +31,8 @@ header h1 {
 
 #aboutme h2, .project h2 {
 	text-align: center;
-	background: #45c0d6;
-	color: #101d5f;
+	/* background: #45c0d6; */
+	/* color: #101d5f; */
 	padding: 40px;
 	width: 600px;
 	font-family: 'Quicksand', sans-serif;
@@ -43,12 +44,13 @@ header h1 {
 	line-height: 40px;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 500;
-	color: #45c0d6;
+	/* color: #45c0d6; */
 }
 
 .project img {
 	display: block;
-	border: 5px solid #45c0d6;
+	/* border: 5px solid #45c0d6; */
+	border: 5px solid black;
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
@@ -61,15 +63,15 @@ header h1 {
 
 .project a {
 	margin: 10px;
-	color: #45c0d6;
+	/* color: #45c0d6; */
 }
 
 footer {
 	text-align: center;
 	background-color: whitesmoke;
 	padding: 40px;
-	background: #45c0d6;
-	color: #101d5f;
+	/* background: #45c0d6; */
+	/* color: #101d5f; */
 }
 
 footer h2 {
@@ -78,5 +80,5 @@ footer h2 {
 
 footer a {
 	margin: 10px;
-	color: #101d5f;
+	/* color: #101d5f; */
 }
