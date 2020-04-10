@@ -4,7 +4,7 @@
 }
 
 body {
-	/* background-color: #101d5f; */
+	 background-color: #232325; 
 }
 
 header {
@@ -13,13 +13,12 @@ header {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bolder;
-	/* color: #45c0d6; */
+	color: rgb(252, 229, 102);
 }
 
 header img {
 	margin-bottom: 20px;
-	/* border: 5px solid #45c0d6; */
-	border: 5px solid black;
+	border: 5px solid rgb(252, 229, 102);
 	border-radius: 50%;
 	height: 300px;
 	width: 300px;
@@ -27,30 +26,32 @@ header img {
 
 header h1 {
 	margin-bottom: 20px;
+	font-size: 64px;
 }
 
 #aboutme h2, .project h2 {
 	text-align: center;
-	/* background: #45c0d6; */
-	/* color: #101d5f; */
+	background: rgb(252, 229, 102);
+	color: rgb(34, 34, 34);
 	padding: 40px;
 	width: 600px;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 700;
+	font-size: 44px;
 }
 
 #aboutme p, .project p {
 	margin: 40px 200px 100px 200px;
 	line-height: 40px;
 	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
 	font-weight: 500;
-	/* color: #45c0d6; */
+	color: #ffffff;
 }
 
 .project img {
 	display: block;
-	/* border: 5px solid #45c0d6; */
-	border: 5px solid black;
+	border: 5px solid rgb(252, 229, 102);
 	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
@@ -63,22 +64,33 @@ header h1 {
 
 .project a {
 	margin: 10px;
-	/* color: #45c0d6; */
+	color: rgb(90, 212, 230);
+	font-size: 20px;
+}
+
+.project a:hover {
+	font-size: 24px;		
 }
 
 footer {
 	text-align: center;
-	background-color: whitesmoke;
 	padding: 40px;
-	/* background: #45c0d6; */
-	/* color: #101d5f; */
+	background: rgb(252, 229, 102);
+	color: rgb(34, 34, 34);
 }
 
 footer h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 44px;
 	margin-bottom: 40px;
 }
 
 footer a {
 	margin: 10px;
-	/* color: #101d5f; */
+	color: rgb(34, 34, 34);
+}
+
+footer img:hover {
+	width: 72px;
+	height: 72px;
 }
