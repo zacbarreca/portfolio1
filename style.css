@@ -29,6 +29,18 @@ header h1 {
 	font-size: 64px;
 }
 
+#projects-header {
+	text-align: center;
+	background: rgb(90, 212, 230);
+	padding: 40px;
+	width: 600px;
+	margin-top: 300px;
+	margin-bottom: 300px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 44px;
+}
+
 #aboutme h2, .project h2 {
 	text-align: center;
 	background: rgb(252, 229, 102);
